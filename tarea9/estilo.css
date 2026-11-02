@@ -1,0 +1,110 @@
+body{
+    border: 2px solid black;
+     min-height: 80vh;
+}
+main{
+    border: 3px solid white;
+    min-height: 80vh;
+}
+div#condor\ extremo{
+  background-color: rgb(19, 41, 83);
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  margin: 0;
+
+}
+div#tituloop {
+   position: absolute;
+   transform: translate(-410px);
+   color: aliceblue;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div#inicio{
+display: flex;
+transform: translate(  240px);
+font-family: Arial, Helvetica, sans-serif;
+}
+div#inicio p{
+    padding: 15px;
+}
+div#contacto{
+    border: 2px solid black;
+    height: 50px;
+}
+div#contacto h2{
+     transform: translate(60px, -60px);
+}
+div.tabla img{
+    width: 460px;
+    height: 360px;
+    transform: translate(60px, 60px);
+}
+form.formulario{
+    transform: translate(50px,-300px);
+    width: 300px;
+    height: 200px;
+}
+form.formulario{
+   max-width: 400px;
+   margin: 0 auto;
+   font-family: Arial, Helvetica, sans-serif;
+}
+div.grupo{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+div.grupo label{
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+div.grupo input
+div.grupo textarea{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+button{
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+button:hover{
+    background-color: #0056b3;
+}
+div#mapa {
+width: 600px;
+transform: translate(950px,-500px);
+}
+iframe{
+    width: 400px;
+    height: 400px;
+}
+main#main2{
+     border: 2px solid black;
+}
+main#main2{
+   min-height: 30vh;
+   margin-top: -400px;
+   background-color:rgb(19, 41, 83) ;
+}
+div#tito2{
+    color: aliceblue;
+    text-align: center;
+}
+div#infor{
+    color: #ccc;
+    transform: translate(50px, 20px);
+}
